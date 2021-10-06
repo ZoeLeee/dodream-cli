@@ -1,8 +1,13 @@
 'use strict';
-
+const pkg = require('../package.json')
+const log = require('@dodream/log')
 module.exports = core;
 
 function core() {
-    // TODO
-    console.log("core 1");
+    checkPkgVersion();
+}
+
+
+function checkPkgVersion() {
+    log.notice('version', pkg.version)
 }

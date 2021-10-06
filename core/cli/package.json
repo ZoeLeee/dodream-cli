@@ -20,6 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
+    "@dodream/log": "file:..\\..\\utils\\log",
     "@dodream/utils": "file:../../utils/utils",
     "import-local": "^3.0.3",
     "npmlog": "^5.0.1"

@@ -1,9 +1,9 @@
 {
-  "name": "@dodream/utils",
+  "name": "@dodream/log",
   "version": "0.0.4",
   "description": "> TODO: description",
   "author": "Zoe <lizhou1021@qq.com>",
-  "homepage": "",
+  "homepage": "https://github.com/ZoeLeee/dodream-cli#readme",
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -13,11 +13,18 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZoeLeee/dodream-cli.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "publishConfig": {
-    "access": "public"
+  "bugs": {
+    "url": "https://github.com/ZoeLeee/dodream-cli/issues"
   },
   "dependencies": {
     "npmlog": "^5.0.1"
