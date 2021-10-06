@@ -5,6 +5,9 @@
   "author": "Zoe <lizhou1021@qq.com>",
   "homepage": "",
   "license": "ISC",
+  "bin": {
+    "dd-cli": "bin/index.js"
+  },
   "main": "lib/index.js",
   "directories": {
     "lib": "lib",
