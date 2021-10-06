@@ -21,5 +21,8 @@
   },
   "dependencies": {
     "@dodream/utils": "^0.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
