@@ -1,6 +1,6 @@
 {
   "name": "@dodream/core",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Zoe <lizhou1021@qq.com>",
   "homepage": "",
@@ -17,6 +17,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@dodream/utils": "^1.0.0"
+    "@dodream/utils": "^0.0.1"
   }
 }
