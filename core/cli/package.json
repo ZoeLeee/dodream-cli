@@ -20,7 +20,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@dodream/utils": "^0.0.4"
+    "@dodream/utils": "file:../../utils/utils",
+    "import-local": "^3.0.3",
+    "npmlog": "^5.0.1"
   },
   "publishConfig": {
     "access": "public"
